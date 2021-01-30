@@ -19,7 +19,7 @@ next.onclick = function() {
 }
 
 function Changer(){
-  main.style.backgroundImage = "url(bg" + i +".png)";
+  main.style.backgroundImage = "url(bg" + i +".jpg)";
   let j = 0;
   while(j<5){
     carousel[j].classList.remove("active");
@@ -29,7 +29,7 @@ function Changer(){
 }
 
 function showMe(x){
-   main.style.backgroundImage = "url(bg" + x +".png)";
+   main.style.backgroundImage = "url(bg" + x +".jpg)";
    let j = 0;
    while(j<5){
      carousel[j].classList.remove("active");
